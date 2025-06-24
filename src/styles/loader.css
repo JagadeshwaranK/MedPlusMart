@@ -1,0 +1,5 @@
+/* Add if you need custom spinner styles */
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+  }
