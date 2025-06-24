@@ -1,0 +1,39 @@
+.footer {
+    background-color: #d6ffe6;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #007bff; 
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.subscribe-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.payment-partners img {
+    width: 50px; 
+    margin: 0 10px;
+}
