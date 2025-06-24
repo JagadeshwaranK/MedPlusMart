@@ -1,0 +1,101 @@
+.navbar {
+    background-color: #cffae0;
+    padding: 15px 0; 
+  }
+  
+  .navhome {
+    text-decoration: none;
+    color: rgb(31, 29, 29);
+    font-size: 1.8rem; 
+    font-weight: bold;
+  }
+  
+  .navhome:hover {
+    color: #3f3939;
+  }
+  
+  .navb {
+    flex-grow: 1; 
+    max-width: 500px; 
+  }
+  .navitem .active {
+    font-weight: bold;
+    color: #353431; 
+  }
+  
+  .textarea {
+    height: 40px;
+    margin-top: 16px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .navitem {
+    padding: 10px 0;
+  }
+  
+  .navitem .nav-link {
+    color: rgb(56, 53, 53);
+    padding: 10px 15px;
+    font-size: 1.1rem; 
+    font-weight: 500;
+  }
+  
+  .navitem .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.893);
+    color: rgb(93, 86, 86);
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .hr {
+    margin: 0;
+    border: 0;
+    height: 2px;
+    background-color: white;
+  }
+  
+  button {
+    margin-left: 10px;
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+  
+  .sidebar-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #c3fafa;
+    color: rgb(90, 81, 81);
+    padding-top: 60px;
+    z-index: 1050;
+  }
+  .category-bar a {
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Remove underline from icons */
+  .icon-button {
+    border: none;
+    background: none;
+    color: rgb(82, 77, 77);
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none; 
+  }
+  
+  /* Search bar positioning for mobile */
+  .mobile-search-container {
+    width: 100%;
+    padding: 10px;
+    background-color: #c3fad8;
+    position: absolute;
+    top: 56px; 
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
