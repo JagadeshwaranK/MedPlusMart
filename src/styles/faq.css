@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400&display=swap);
+@import url(https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css);
+
+.accordion {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    max-width: 800px;
+    padding: 15px;
+    list-style: none;
+    margin: 50px auto; 
+    border-radius: 10px;
+    height: max-content;
+    flex-direction: column;
+  }
+  
+  .details {
+    border-radius: 15px;
+    padding: 10px 15px;
+    background: linear-gradient(29deg, rgb(210, 248, 200), #d5e5fc);
+    transition: border-color 0.3s ease; 
+  }
+  
+  .summary {
+    display: flex;
+    color: rgb(24, 24, 24);
+    line-height: 1.5;
+    cursor: pointer;
+    gap: 10px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 15px; 
+  }
+  
+  /* .details.open .summary,
+  .summary:hover {
+    color: #99ecec; 
+  } */
+  
+  .summary::after {
+    content: '\F282'; 
+    transition: transform 0.3s ease; 
+    font-size: 14px; 
+    font-family: 'bootstrap-icons';
+  }
+  
+  .contents {
+    height: 0; 
+    overflow: hidden;
+    font-size: 15px;
+    transition: height 0.5s ease;
+    color: rgb(28, 27, 27);
+    padding: 0 20px; 
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+  
+  .details.open .content {
+    height: auto;
+    padding: 15px 20px; 
+  }
+  
+  .details.open .summary::after {
+    transform: rotate(180deg); 
+  }
